@@ -5,6 +5,14 @@ import ast
 import yfinance as yf
 
 def preprocess_fillings_NonConsolidated_csv(path):
+    """This function loads and cleans fillings list data file
+
+    Args:
+        path (str): file path
+
+    Returns:
+        dataframe: fillings list dataframe
+    """
     # Load the file
     fillings_files_df = pd.read_csv(path)
 
@@ -20,6 +28,16 @@ def preprocess_fillings_NonConsolidated_csv(path):
 
 
 def preprocess_stock_price_data(stock_name, market, path):
+    """This function loads, update and cleans stock price data and saves it at the file path
+
+    Args:
+        stock_name (str): name of stock 
+        market (str): market indicator
+        path (str): file path
+
+    Returns:
+        dataframe: stock price dataframe
+    """
     current_date = pd.Timestamp(datetime.now().date())
 
     # Check if the stock data file exists
@@ -84,6 +102,16 @@ def ensure_list(value):
         return value
 
 def preprocess_sentiment_file(stock_name, market, path):
+    """This function loads, update and cleans stock sentiment data and saves it at the file path
+
+    Args:
+        stock_name (str): name of stock 
+        market (str): market indicator
+        path (str): file path
+
+    Returns:
+        dataframe: stock sentiment dataframe
+    """
     current_date = pd.Timestamp(datetime.now().date())
 
     # Check if the sentiment file exists

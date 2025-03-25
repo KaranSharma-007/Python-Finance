@@ -3,6 +3,14 @@ import pandas as pd
 import requests
 
 def Xml_Extract_Financials(df):
+    """This function extract financials data from the xml file link
+
+    Args:
+        df (str): url link
+
+    Returns:
+        dataframe: dataframe of financials
+    """
     url = df
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
@@ -26,6 +34,14 @@ def Xml_Extract_Financials(df):
 
 
 def Extract_Important_Financials(df):
+    """This functions extract only important financials from the xml file link
+
+    Args:
+        df (str): url link
+
+    Returns:
+        dataframe
+    """
     Financials = Xml_Extract_Financials(df)
     
     # Defaults

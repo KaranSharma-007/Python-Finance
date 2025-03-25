@@ -4,6 +4,15 @@ from textblob import TextBlob
 
 # Function to get market news
 def get_google_news(Query, Date):
+    """This function gets news headlines for the given query for the particular Date
+
+    Args:
+        Query (str)
+        Date (date)
+
+    Returns:
+        list: list of headlines
+    """    
     date = Date.strftime('%d %b %Y')
 
     # Set headers to mimic a real browser
@@ -39,6 +48,14 @@ def get_google_news(Query, Date):
 
 # Function to calculate aggregated sentiment score using TextBlob
 def get_aggregated_sentiment(articles):
+    """This function gives aggregated sentiment score for the list of headlines
+
+    Args:
+        articles (list): list of headlines(str)
+
+    Returns:
+        float: sentiment score
+    """
     sentiment_scores = []
     for article in articles:
         polarity, subjectivity = TextBlob(article).sentiment
