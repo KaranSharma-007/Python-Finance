@@ -1,4 +1,4 @@
-# 🧠 Python Finance – Stock Price Prediction for Indian Market 🇮🇳
+# Python Finance – Stock Price Prediction for Indian Market 🇮🇳
 
 This project is focused on building a machine learning pipeline to predict stock prices and movements for Indian stocks using technical indicators, fundamental financials, and sentiment analysis.
 
