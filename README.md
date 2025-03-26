@@ -23,6 +23,21 @@ This project is focused on building a machine learning pipeline to predict stock
 
 ---
 
+## 📁 Project Structure
+
+| File/Folder        | Description |
+|--------------------|-------------|
+| `main.ipynb`       | 🔁 Main notebook that executes the entire pipeline — from preprocessing to model training and evaluation. |
+| `feature_engineer.py` | Feature engineering functions including technical indicators (SMA, RSI, etc.) and financial ratios. |
+| `NseXRBL.py`       | Extracts financial statement data (like revenue, EBITDA) from NSE’s published XBRL/XML reports using `BeautifulSoup`. |
+| `preprocessing.py` | Functions to load stock price data via Yahoo Finance, clean, and update existing CSV files. |
+| `sentiments.py`    | Extracts news headlines using Google Search and computes sentiment scores using `TextBlob`. |
+| `Data/`            | Contains local CSV and Excel files (stock price history, scraped financials, etc.). |
+| `requirements.txt` | All required Python libraries for easy environment setup. |
+| `README.md`        | This file — explains everything! |
+
+---
+
 ## 🛠️ Tech Stack
 
 - `Python 3.x`
