@@ -67,12 +67,12 @@ This project is focused on building a machine learning pipeline to predict stock
 - `Aggregated Sentiment Score`
 - `EBITDA_Margin`, `Profit_Margin`, `Expense_Ratio`
 - `DaysAgoReportPublished`
-
+   
 ---
 
-## ⚙️ How to Run
+## ⚠️ License & Usage
 
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/KaranSharma-007/Python-Finance
-   cd Python-Finance
+© 2025 Karan Sharma. All rights reserved.  
+This project and the underlying logic are protected under copyright.  
+Please do not reuse, publish, or redistribute without written permission.  
+If you're interested in using this work, feel free to connect with me.
