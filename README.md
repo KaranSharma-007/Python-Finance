@@ -6,6 +6,11 @@ This project is focused on building a machine learning pipeline to predict stock
 
 ![output](https://github.com/user-attachments/assets/66a4e9f9-6f90-418d-9a44-21a12d4db0b5)
 
+===
+
+![output2](https://github.com/user-attachments/assets/7e6018b6-679d-4b71-94c3-379632b620ca)
+
+
 ---
 
 <img width="1404" alt="Screenshot 2025-03-24 at 10 15 48" src="https://github.com/user-attachments/assets/3a398cd3-0775-4446-b0af-df6293a2ebfd" />
