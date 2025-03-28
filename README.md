@@ -10,6 +10,11 @@ This project is focused on building a machine learning pipeline to predict stock
 
 ![output2](https://github.com/user-attachments/assets/7e6018b6-679d-4b71-94c3-379632b620ca)
 
+Tomorrows Predictions :-
+Actual             NaN
+Predicted        209.0
+actual_before    206.0
+Signal             BUY
 
 ---
 
